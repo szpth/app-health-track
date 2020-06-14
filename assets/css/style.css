@@ -1,0 +1,185 @@
+a {
+    color: rgba(33, 33, 33,1.0);
+}
+
+a:active {
+    color: rgba(38, 50, 56,1.0);
+}
+
+a:hover {
+    color: rgba(0, 123, 255, 1.0);
+}
+
+html,
+body {
+    color: black;
+    background-color: #FFFFFF;
+}
+
+h1,
+h2,
+h3 {
+    font-family: comfortaalight;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.h-20 {
+    height: 20%!important;
+}
+
+.h-80 {
+    height: 80%!important;
+}
+
+.background {
+    background: url(./../images/fundo_04.jpg) center center;
+    background-size: cover;
+}
+
+.lb-row {
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.m-auto {
+    margin-top: auto!important;
+    margin-bottom: auto!important;
+}
+
+.mw-auto {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+.mb-6, .my-6 {
+    margin-bottom: 6rem!important;
+}
+
+
+/* Title */
+
+.title {
+    font-family: comfortaaregular;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title-first {
+    font-size: calc(2rem + 1vh);
+    margin-top: 15px;
+}
+
+.title-secundary {
+    font-size: calc(2rem + 3vh);
+    line-height: 80%;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Buttom */
+
+.btn {
+    font-family: comfortaaregular;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-line {
+    border: 0;
+    border-bottom: 1px solid;
+}
+
+.btn-lg {
+    height: 52px;
+    font-size: 12px;
+}
+
+/* Forms */
+
+.bt-form {
+    height: 52px;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+}
+
+/* Header */
+
+.arrow {
+    font-size: 25px;
+}
+
+.header {
+    background-color: #FFFFFF;
+}
+
+.b-header {
+    border: 0;
+    border-bottom: 1px solid #6c757d47;
+}
+
+.m150 {
+    margin-top: 150px;
+}
+
+/* Footer */
+
+.icons {
+    font-size: 35px;
+}
+
+.b-footer {
+    border: 0;
+    border-top: 1px solid #6c757d47;
+}
+
+.footer {
+    height: 100px!important;
+    background-color: #FFFFFF;
+}
+
+.foo-align {
+    margin-top: 20px;
+}
+
+/* Card */
+
+.card {
+    width: 100%;
+}
+
+.card-body {
+    padding: 0.5rem;
+}
+
+.card-chat-to {
+    border-radius: 0.5rem;
+    color: #ffffff;
+    background-color: #048df9;
+}
+
+.card-chat-from {
+    border-radius: 0.5rem;
+    color: #000000;
+    background-color: #dcdcdc;
+}
+
+
+/* Avatar */
+
+.cropped {
+    width: 50px; /* width of container */
+    height: 50px; /* height of container */
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.cropped img {
+    margin: -10px 0px 0px -180px;
+}
